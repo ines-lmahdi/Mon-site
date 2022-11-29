@@ -1,0 +1,26 @@
+{
+  "name": "mon_site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./main.scss:./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ines-lmahdi/Mon_site.git"
+  },
+  "keywords": [
+    "Feeling1532!"
+  ],
+  "author": "ines-lmahdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ines-lmahdi/Mon_site/issues"
+  },
+  "homepage": "https://github.com/ines-lmahdi/Mon_site#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1",
+    "sass": "^1.53.0"
+  }
+}
