@@ -1,0 +1,21 @@
+@import "animations.scss";
+
+.blc-prest{
+    border: 1px solid black;
+    width: 250px;
+    height: 350px;
+    margin: 5px;
+    background-color: rgba(245, 245, 245, 0.4);
+}
+#bloc-prest{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.title-prestation{
+    font-size: 30px;
+}
+
+

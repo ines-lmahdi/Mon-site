@@ -1,0 +1,29 @@
+#bloc-icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-around;
+
+    .parcours{
+        height: auto;
+        width: 20%;
+        i{
+            color: white;
+            font-size: 60px;
+            padding: 20px;
+        }
+    }
+}
+
+#bloc-text{
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    background-color: rgba(245, 245, 245, 0.4);
+}
+
+@media only screen and (min-width: 400px){
+    .parcours i{
+        font-size: 30px;
+    }
+}

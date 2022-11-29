@@ -1,0 +1,38 @@
+/* ANIMATION */
+
+.appearance{
+    .delay-1{
+        animation: appearance .5s;
+    }
+    .delay-2{
+        animation: appearance 1.5s;
+    }
+    .delay-3{
+        animation: appearance 2s;
+    }
+    .delay-4{
+        animation: appearance 2.5s;
+    }
+    .delay-5{
+        animation: appearance 3.0s;
+    }
+    .delay-6{
+        animation: appearance 3.5s;
+    }
+    .delay-7{
+        animation: appearance 4.0s;
+    }
+ }
+
+ @keyframes appearance {
+    from {
+        transform: scale(0.1);
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        transform: translateY(0px);
+        opacity: 1;
+    }
+ }
