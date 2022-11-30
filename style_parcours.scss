@@ -1,29 +1,80 @@
-#bloc-icons{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: no-wrap;
-    justify-content: space-around;
+@import url('animations.scss');
 
-    .parcours{
-        height: auto;
-        width: 20%;
-        i{
-            color: white;
-            font-size: 60px;
-            padding: 20px;
-        }
+.skills{
+    .hight, .down{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .right, .left{
+        width: 45%;
+        height: 45%;
+        padding: 20px;
     }
 }
 
-#bloc-text{
-    height: 80%;
+.barre{
+    background-color:#173c8d;
+}
+.html{
+    width: 95%;
+    height: 20px;
+}
+.css{
+    width: 90%;
+    height: 20px;
+}
+.javascript{
+    width: 85%;
+    height: 20px;
+}
+.vuejs{
     width: 80%;
-    margin: auto;
-    background-color: rgba(245, 245, 245, 0.4);
+    height: 20px;
+}
+.angular{
+    width: 75%;
+    height: 20px;
+}
+.wordpress{
+    width: 90%;
+    height: 20px;
 }
 
-@media only screen and (min-width: 400px){
-    .parcours i{
-        font-size: 30px;
-    }
+.anglais{
+    height: 20px;
+    width: 10%;
+}
+
+.espagnol{
+    height: 20px;
+    width: 50%;
+}
+.ponctualite{
+    height: 20px;
+    width: 5%;
+}
+.creativite{
+    height: 20px;
+    width: 20%;
+}
+.fond{
+    width: 100%;
+    height: 20px;
+    background-color: #173c8d7e;
+    //position: absolute;
+}
+.light{
+    height: 20px;
+    background-color: #8c9ec6;
+}
+.dark{
+    width: 100%;
+    height: 20px;
+    background-color: #173c8d;
+}
+.fa-brands{
+    font-size: 40px;
+    padding: 15px;
+    color: #1e81b0;
 }

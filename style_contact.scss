@@ -1,14 +1,5 @@
-/*body{
-    background-image: url('mountain.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: 'Roboto-Thin';
- }*/
-#background-video{
-    object-fit: cover;
-    position: fixed;
-    z-index: -1;
-}
+
+
  #block-1,#block-2{
     display: flex;
     flex-direction: row;
@@ -17,7 +8,7 @@
 
     i{
         font-size: 20px;
-        color:black;
+        color:#fefefefe;
     }
 
     a{
@@ -30,11 +21,11 @@
     }
 
     i:hover{
-        color: white;
+        color: #1e81b0;
     }
  }
 #big-block{
-    background-color: rgba(245, 245, 245, 0.4);
+    background-color: #173c8d;
     border-radius: 20px;
     margin: 10%;
     color: black;
@@ -46,6 +37,8 @@
 // Formulaire
 
 #formulaire{
+    color: #fefefefe;
+
     #name,#mail, #msg{
         border: none;
         padding: 7px;
