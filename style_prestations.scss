@@ -1,23 +1,32 @@
 @import "animations.scss";
 
-.blc-prest{
-    width: 250px;
-    height: 350px;
-    margin: 5px;
-    border: solid 5px #173c8d;
-    background-color: #173c8d;
-    border-radius: 20px;
 
-}
 #bloc-prest{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-}
 
-.title-prestation{
-    font-size: 30px;
-}
+    .blc-prest{
+        width: 250px;
+        height: 350px;
+        margin: 5px;
+        border: solid 5px #173c8d;
+        background-color: #173c8d;
+        border-radius: 20px;
 
+        .title-prestation{
+            font-size: 20px;
+            color: #fefefefe;
+        }
+
+        .illustration{
+            height: 50%;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 15px 15px 0px 0px;
+        }
+
+    }
+}
 

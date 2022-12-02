@@ -55,26 +55,7 @@
     }
 
   }
-//Animation h1
 
-.tracking-in-contract {
-  -webkit-animation: tracking-in-contract 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-          animation: tracking-in-contract 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-
-@keyframes tracking-in-contract {
-  0% {
-    letter-spacing: 1em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    letter-spacing: normal;
-    opacity: 1;
-  }
-}
 
 html{
     font-family: 'Roboto-Thin';
@@ -108,7 +89,8 @@ main{
     margin: 20%;
 
     h2{
-      color:#1e81b0;
+      color:#173c8d;
+      font-size: 30px;
     }
 
     .btn{
@@ -126,13 +108,8 @@ main{
             text-decoration:none;
         }
         &:hover{
-          background-color: #ffffff;
+          background-color: #173c8d;
           font-weight: 400;
-
-          a{
-            color:#173c8d;
-
-          }
       }
     }
 

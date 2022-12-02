@@ -33,7 +33,6 @@
 
 }
 
-
 // Formulaire
 
 #formulaire{
@@ -54,12 +53,13 @@
     #btn-send{
         padding: 3px 15px 3px 15px;
         background-color: white;
+        color: #173c8d;
         border: none;
         margin: 10px;
+        border-radius: 15px;
     }
     #btn-send:hover{
-        background-color: black;
-        color: white;
-
+        transform: scale(1.1);
+        font-weight: bold;
     }
 }
