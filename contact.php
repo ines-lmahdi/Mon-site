@@ -19,22 +19,21 @@
             <div id="big-block">
                 <h2 class="white"> Contactez-moi !</h2>
                 <div id="block-1">
-                    <form id="formulaire" action="" method="post">
-                        <div>
-                            <label for="name"> Votre nom complet</label><br>
-                            <input type="text" id="name" name="user_name">
-                        </div>
-                        <div>
-                            <label for="mail">  E-mail&nbsp;:</label><br>
-                            <input type="email" id="mail" name="user_name">
-                        </div>
-                        <div>
-                            <label for="msg"> Comment puis-je vous aidez ?</label><br>
-                            <textarea name="user_message" id="msg" cols="30" rows="10"></textarea>
-                        </div>
-                        <button type="submit" id="btn-send"> Envoyer</button>
+                    <form  id="formulaire" action="mailto:ines.lmahdi@gmail.com?subject=Demande de devis" name="envoi" method=POST enctype="text/plain">
+                        <p>Nom : </p><input name="Nom  "size=50 maxlength=50><br>
+                        <p>Prénom : </p><input name="Prénom "size=50 maxlength=50><br>
+                        <p>E-mail : </p><input name="E-mail "size=50 maxlength=50><br>
+                        <p>Entreprise (facultatif) : </p><input name="Entreprise "size=50 maxlength=50><br>
+                        <p>Message : </p><textarea name="Message " cols="50" rows="10"></textarea><br>
+                        <input class="btn-form" type="submit" value="Envoyer" name="Envoyer">
+                        <input class="btn-form" type="reset" name="Submit" value="Effacer">
                     </form>
-
+                    <?php
+                    if(isset($_POST['message'])){
+                        $retour = mail('ines.lmahdi@gmail.com', 'Envoi depuis la page Contact', $_POST['message'], 'From: webmaster@monsite.fr' . "\r\n" . 'Reply-to: ' . $_POST['email']);
+        if($retour)
+            echo '<p>Votre message a bien été envoyé.</p>';
+                    }
                 </div>
                 <div id="block-2">
                     <div class="contact JeChercheUnDev">

@@ -35,36 +35,28 @@ main, body, html{
     //margin: 10%;
     color: black;
     padding-top: 10px;
-    height: 60%;
+    height: 75%;
 }
 
 // Formulaire
 
 #formulaire{
     color: #fefefefe;
-
-    #name,#mail, #msg{
-        border: none;
-        padding: 7px;
-        margin: 10px;
-        font-size: 16px;
-        width: 350px;
-        border-radius: 15px;
-
-        label{
-            text-align: right;
-        }
+    text-align: center;
+    p{
+        margin: 0px;
+        padding: 5px 0px 5px 0px;
     }
-    #btn-send{
-        padding: 3px 15px 3px 15px;
-        background-color: white;
+    .btn-form{
+        margin: 10px;
+        background-color: #fefefefe;
         color: #173c8d;
         border: none;
-        margin: 10px;
-        border-radius: 15px;
-    }
-    #btn-send:hover{
-        transform: scale(1.1);
-        font-weight: bold;
+        width: 100px;
+        height: 25px;
+        &:hover{
+            font-weight: bold;
+            transform: scale(1.1);
+        }
     }
 }
