@@ -1,7 +1,7 @@
 @import url('/SCSS/animations.scss');
 @import "/SCSS/normalize.css";
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 500px){
     #projets{
         width: 100%;
         .btn-projet{
@@ -105,6 +105,7 @@ html{
     }
 
   .form-container{
+    width: 80%;
     padding: 20px;
     background-color: #fefefefe;
     border: #173c8d solid 2px;

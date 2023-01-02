@@ -312,7 +312,7 @@ main, body, html {
   color: #1e81b0;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   #projets {
     width: 100%;
   }
@@ -412,6 +412,7 @@ html {
 }
 
 .form-container {
+  width: 80%;
   padding: 20px;
   background-color: rgba(254, 254, 254, 0.9960784314);
   border: #173c8d solid 2px;
