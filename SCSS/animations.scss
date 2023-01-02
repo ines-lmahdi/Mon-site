@@ -1,0 +1,169 @@
+/* ANIMATION */
+
+//Animation h1
+
+.tracking-in-contract {
+    -webkit-animation: tracking-in-contract 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+            animation: tracking-in-contract 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+
+  @keyframes tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+
+  //Animation projet
+
+.appearance{
+    .delay-1{
+        animation: appearance .5s;
+    }
+    .delay-2{
+        animation: appearance 1.5s;
+    }
+    .delay-3{
+        animation: appearance 2s;
+    }
+    .delay-4{
+        animation: appearance 2.5s;
+    }
+    .delay-5{
+        animation: appearance 3.0s;
+    }
+    .delay-6{
+        animation: appearance 3.5s;
+    }
+    .delay-7{
+        animation: appearance 4.0s;
+    }
+    .delay-8{
+        animation: appearance 4.5s;
+    }
+ }
+
+ @keyframes appearance {
+    from {
+        transform: scale(0.1);
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        transform: translateY(0px);
+        opacity: 1;
+    }
+ }
+
+ .scale-up-hor-left {
+	-webkit-animation: scale-up-hor-left 2.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-left 2.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-hor-left {
+    0% {
+      -webkit-transform: scaleX(0.4);
+              transform: scaleX(0.4);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 0% 0%;
+              transform-origin: 0% 0%;
+    }
+  }
+
+  .scale-up-hor-right {
+	-webkit-animation: scale-up-hor-right 2.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-hor-right 2.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-hor-right {
+    0% {
+      -webkit-transform: scaleX(0.4);
+              transform: scaleX(0.4);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+    }
+    100% {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+      -webkit-transform-origin: 100% 100%;
+              transform-origin: 100% 100%;
+    }
+  }
+
+
+// PRESTATIONS
+
+.slide-bottom {
+	-webkit-animation: slide-bottom 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(30px);
+              transform: translateY(30px);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(30px);
+              transform: translateY(30px);
+    }
+  }
+
+  // ALERTE JEU DE NOEL
+
+  .pulsate-fwd{
+    -webkit-animation: pulsate-fwd 2s ease-in-out infinite both;
+            animation: pulsate-fwd 2s ease-in-out infinite both;
+  }
+
+@-webkit-keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes pulsate-fwd {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
