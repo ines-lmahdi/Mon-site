@@ -92,6 +92,10 @@ main, body, html {
   font-family: "Roboto-Thin";
   src: url("/FONT/Roboto-Thin.ttf");
 }
+@font-face {
+  font-family: "Typewriter";
+  src: url(/FONT/Typewriter.ttf);
+}
 @-webkit-keyframes scale-in-center {
   0% {
     -webkit-transform: scale(0);
@@ -324,11 +328,6 @@ main, body, html {
     transform: scale(1.1);
   }
 }
-@media screen and (min-width: 982px) {
-  #projets {
-    width: 60% !important;
-  }
-}
 main, body, html {
   height: 100%;
   width: 100%;
@@ -361,7 +360,7 @@ html {
   justify-items: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 80%;
+  width: 90%;
   height: 70%;
 }
 #projets .fa-xmark {
@@ -372,19 +371,29 @@ html {
   text-decoration: none;
 }
 #projets .btn-projet {
-  width: 150px;
-  height: 150px;
-  background-color: #173c8d;
-  border-radius: 50%;
-  margin: 15px;
+  width: 230px;
+  height: 290px;
+  margin-bottom: 15px;
+  background-color: white;
   display: flex;
   align-items: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+#projets .btn-projet .image {
+  width: 210px;
+  height: 220px;
+  border: 1px solid rgba(0, 0, 0, 0.226);
 }
 #projets .btn-projet h3 {
-  color: rgba(254, 254, 254, 0.9960784314);
-  font-family: "Roboto";
-  font-size: 22px;
-  font-weight: 100;
+  color: black;
+  font-family: "Typewriter";
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px;
+}
+#projets .btn-projet p {
+  margin: 0px;
+  font-family: "Typewriter";
 }
 #projets .btn-projet .open-button {
   text-align: center;

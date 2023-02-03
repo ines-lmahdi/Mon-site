@@ -28,6 +28,11 @@ main, body, html{
     src: url('/FONT/Roboto-Thin.ttf');
 }
 
+@font-face {
+  font-family: 'Typewriter';
+  src: url(/FONT/Typewriter.ttf);
+}
+
  @-webkit-keyframes scale-in-center {
     0% {
       -webkit-transform: scale(0);

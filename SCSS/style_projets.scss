@@ -13,11 +13,7 @@
         }
     }
 }
-@media screen and (min-width: 982px)  {
-    #projets{
-        width: 60% !important;
-    }
-}
+
 
 main, body, html{
     height: 100%;
@@ -47,7 +43,7 @@ html{
     justify-items: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
     height: 70%;
 
     .fa-xmark{
@@ -60,19 +56,30 @@ html{
     }
 
     .btn-projet{
-        width: 150px;
-        height: 150px;
-        background-color: #173c8d;
-        border-radius: 50%;
-        margin: 15px;
+        width: 230px;
+        height: 290px;
+        margin-bottom: 15px;
+        background-color: white;
         display: flex;
         align-items: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+        .image{
+            width: 210px;
+            height: 220px;
+            border: 1px solid rgba(0, 0, 0, 0.226);
+        }
 
         h3{
-            color:#fefefefe ;
-            font-family: 'Roboto';
-            font-size: 22px;
-            font-weight: 100;
+            color:black ;
+            font-family: 'Typewriter';
+            font-size: 18px;
+            font-weight: bold;
+            margin: 5px;
+        }
+        p{
+            margin: 0px;
+            font-family: 'Typewriter';
         }
 
         .open-button{
