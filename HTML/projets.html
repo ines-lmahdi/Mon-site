@@ -10,17 +10,22 @@
             <link rel="text/css" href="/SCSS/normalize.css">
             <script src="https://kit.fontawesome.com/7a4c34e63c.js" crossorigin="anonymous"></script>
         </head>
-        <body >
+        <body class="bckgnd-blue">
             <header>
                 <div id="header">
-                    <a href="index.html"><i class="fa-solid fa-arrow-left-long"></i></a>
-                    <h1 class="blue"> INES LMAHDI</h1>
+                    <a href="index.html"><i class="fa-solid fa-arrow-left-long white"></i></a>
+                    <h1 class="white"> INES LMAHDI</h1>
+                    <h2 class="white wlc-portfolio"> Bienvenue sur mon Portfolio </h2>
+                    <div>
+                        <p class="white p-portfolio"> Vous découvrirez ici les projets realisés durant ma formation et après... <br>
+                        Cliquez sur un Polaroid pour découvrir le projet en question et les technologies utilisées pour sa conception</p>
+                    </div>
                 </div>
             </header>
             <main>
                 <section id="projets" class="appearance">
-                    <div class="btn-projet delay-1 ">
-                        <div  class="open-button" onclick="openForm1()">
+                    <div class="btn-projet delay-1">
+                        <div  class="open-button " onclick="openForm1()">
                             <img src="/IMAGE/POLAbooki2.png" alt="booki" class="image">
                             <h3> Booki</h3>
                             <p> HTML & CSS</p>
@@ -227,34 +232,32 @@
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <div class="btn-projet delay-8">
-                            <div  class="open-button" onclick="openForm8()">
-                                <img src="/IMAGE/POLAexmes.png" alt="exmes" class="image">
-                                <h3> EXMES</h3>
-                                <p> Javascript, HTML & CSS </p>
-                            </div>
-                            <div class="login-popup invible">
-                                <div class="form-popup" id="site-8">
-                                    <div class="form-container">
-                                        <button type="button" class="btn cancel" onclick="closeForm8()">
-                                            <i class="fa-solid fa-xmark"></i>
-                                        </button>
-                                        <div class="img-content">
-                                            <img src="/IMAGE/POLAexmes.png" alt="Harry Potter">
-                                        </div>
-                                        <h3 class="title harryPotter blue">Harry Potter</h3>
-                                        <h4>Description</h4>
-                                        <p>blablablablablablablablablablablabla</p>
-                                        <h4>Technologies utilisées</h4>
-                                        <p>blablablablablablablablablablablabla</p>
-                                        <a href="www.exmes.fr" class="open-projet">Découvrir le projet</a>
+                    <div class="btn-projet delay-9">
+                        <div  class="open-button" onclick="openForm8()">
+                            <img src="/IMAGE/POLAexmes.png" alt="exmes" class="image">
+                            <h3> EXMES</h3>
+                            <p> Javascript, HTML & CSS </p>
+                        </div>
+                        <div class="login-popup invible">
+                            <div class="form-popup" id="site-8">
+                                <div class="form-container">
+                                    <button type="button" class="btn cancel" onclick="closeForm8()">
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </button>
+                                    <div class="img-content">
+                                        <img src="/IMAGE/POLAexmes.png" alt="Harry Potter">
                                     </div>
+                                    <h3 class="title harryPotter blue">Harry Potter</h3>
+                                    <h4>Description</h4>
+                                    <p>blablablablablablablablablablablabla</p>
+                                    <h4>Technologies utilisées</h4>
+                                    <p>blablablablablablablablablablablabla</p>
+                                    <a href="www.exmes.fr" class="open-projet">Découvrir le projet</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="btn-projet delay-8">
+                    <div class="btn-projet delay-10">
                         <div  class="open-button" onclick="openForm8()">
                             <img src="/IMAGE/POLAnew.png" alt="booki" class="image">
                             <h3> A vous de jouer !</h3>
@@ -278,7 +281,6 @@
                             </div>
                         </div>
                     </div>
-                    <div>
                 </section>
             </main>
             <footer>

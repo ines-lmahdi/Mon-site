@@ -3,17 +3,10 @@
 
 @media screen and (max-width: 500px){
     #projets{
-        width: 100%;
-        .btn-projet{
-            border-radius: 20px !important;
-            width: 98% !important;
-            &:hover{
-                transform: scale(1.1);
-            }
-        }
+        display: flex;
+        justify-content: center !important;
     }
 }
-
 
 main, body, html{
     height: 100%;
@@ -25,7 +18,6 @@ html{
     background-color: #fefefefe;
 }
 .fa-arrow-left-long{
-    color: #173c8d;
     font-size: 25px;
     padding: 10px;
 }
@@ -35,6 +27,16 @@ html{
 .roboto{
     font-family: 'Roboto';
     font-weight: 300;
+}
+
+.wlc-portfolio{
+    text-align: center;
+}
+.p-portfolio{
+    text-align: center;
+    width: 90%;
+    margin: 5%;
+
 }
 #projets{
     display: flex;
@@ -63,11 +65,14 @@ html{
         display: flex;
         align-items: center;
         box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        &:hover{
+            transform: scale(1.1);
+        }
 
         .image{
             width: 210px;
             height: 220px;
-            border: 1px solid rgba(0, 0, 0, 0.226);
+            border: 2px solid rgba(0, 0, 0, 0.789);
         }
 
         h3{
@@ -102,6 +107,7 @@ html{
         text-align: center;
     }
     .form-popup{
+        width: 90%;
         display: none;
         position: fixed;
         left: 45%;
@@ -112,7 +118,7 @@ html{
     }
 
   .form-container{
-    width: 80%;
+    width: 90%;
     padding: 20px;
     background-color: #fefefefe;
     border: #173c8d solid 2px;

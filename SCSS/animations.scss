@@ -48,6 +48,12 @@
     .delay-8{
         animation: appearance 4.5s;
     }
+    .delay-9{
+      animation: appearance 5.0s;
+  }
+    .delay-10{
+      animation: appearance 5.5s;
+    }
  }
 
  @keyframes appearance {
@@ -165,5 +171,34 @@
   100% {
     -webkit-transform: scale(1);
             transform: scale(1);
+  }
+}
+
+
+// Animation des Polaroid
+
+.slide-rotate-ver-left:hover {
+	-webkit-animation: slide-rotate-ver-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-rotate-ver-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-rotate-ver-left {
+  0% {
+    -webkit-transform: translateX(0) rotateY(0);
+            transform: translateX(0) rotateY(0);
+  }
+  100% {
+    -webkit-transform: translateX(-150px) rotateY(90deg);
+            transform: translateX(-150px) rotateY(90deg);
+  }
+}
+@keyframes slide-rotate-ver-left {
+  0% {
+    -webkit-transform: translateX(0) rotateY(0);
+            transform: translateX(0) rotateY(0);
+  }
+  100% {
+    -webkit-transform: translateX(-150px) rotateY(90deg);
+            transform: translateX(-150px) rotateY(90deg);
   }
 }
